@@ -1,0 +1,5 @@
+numbers = (1, 2, 3, 4, 5, 6)
+print("Original list: ", numbers)
+output = map(lambda  x: x + x + x, numbers)
+print("\nTriple values are:")
+print(list(output))
